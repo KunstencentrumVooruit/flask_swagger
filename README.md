@@ -7,9 +7,10 @@ sudo apt-get install virtualenv
 virtualenv testapp
 cd testapp
 bin/pip install flask-restplus
-git clone https://github.com/KunstencentrumVooruit/flask_swagger.git
-ln -s flask_swagger/template.py app.py
-chmod 775 app.py
+https://raw.githubusercontent.com/KunstencentrumVooruit/flask_swagger/master/template.py
+chmod 775 template.py
+mv template.py app.py
 ./app.py
 ```
 
+http://localhost:5003/apiv1/sensoren/swagger
