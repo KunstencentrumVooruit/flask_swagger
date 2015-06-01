@@ -1,7 +1,7 @@
 #!bin/python
 
 from flask import Flask, Blueprint
-from flask.ext.restplus import Api, Resource, fields
+from flask.ext.restplus import Api, Resource, fields, apidoc
 
 app = Flask(__name__)
 # PREFIX van de api -> http://SERVERNAME/<URL_PREFIX>
