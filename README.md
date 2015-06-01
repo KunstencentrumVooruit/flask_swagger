@@ -7,7 +7,7 @@ sudo apt-get install virtualenv
 virtualenv testapp
 cd testapp
 bin/pip install flask-restplus
-https://raw.githubusercontent.com/KunstencentrumVooruit/flask_swagger/master/template.py
+wget https://raw.githubusercontent.com/KunstencentrumVooruit/flask_swagger/master/template.py
 chmod 775 template.py
 mv template.py app.py
 ./app.py
