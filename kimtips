@@ -2,3 +2,14 @@ pip install virtualenvwrapper  (virtualenv extension tools)
 
 to be able to add to the python path
 so you can import modules from subdirectories (eg. static)
+
+mkvirtualenv myenv
+workon myenv
+add2virtualenv . #for current directory
+add2virtualenv ~/my/path
+
+If you want to remove these path edit the file myenvhomedir/lib/python2.7/site-packages/_virtualenv_path_extensions.pth
+
+Documentation on virtualenvwrapper can be found at http://virtualenvwrapper.readthedocs.org/en/latest/
+
+Specific documentation on this feature can be found at http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html?highlight=add2virtualenv
