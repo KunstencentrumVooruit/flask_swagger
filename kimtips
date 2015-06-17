@@ -1,3 +1,5 @@
+werkt alleen als je virtualenv hierna aanmaakt
+http://roundhere.net/journal/virtualenv-ubuntu-12-10/
 pip install virtualenvwrapper  (virtualenv extension tools)
 
 to be able to add to the python path
